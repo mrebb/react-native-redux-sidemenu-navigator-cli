@@ -63,7 +63,7 @@ $ npm install
 On the command prompt run the following commands and copy the files into your project directory
 
 ```sh
-$ git clone https://github.com/mrebb/react-native-redux-navigation-starter.git
+$ git clone https://github.com/mrebb/react-native-redux-sidemenu-navigator-cli.git
 
 $ cd templates/react-native-template
 
