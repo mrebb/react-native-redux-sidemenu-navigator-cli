@@ -63,7 +63,7 @@ $ cd .. <to go back to root folder>
 $ update `name` field inside package.json to reflect desired <project name>
 $ npm install 
 ``` 
-2. Manual process: On the command prompt run the following commands and copy the boiler-plate code into your project directory
+#### 2. Manual process: On the command prompt run the following commands and copy the boiler-plate code into your project directory
 
 ```sh
 $ git clone https://github.com/mrebb/react-native-redux-sidemenu-navigator-cli.git
