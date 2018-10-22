@@ -9,6 +9,7 @@ import SideMenu from 'react-native-side-menu';
 import Menu from './components/SideMenuBar.js'
 import {AppNavigator,middleware} from './navigation/AppNavigation.js'
 import image from './assets/menu.png'
+import closeImage from './assets/menu-close.png'
 import logger from './middleware/logger.js'
 const middlewares = [thunk,middleware,logger]
 // create store
@@ -58,6 +59,7 @@ export default class App extends React.Component {
         <StatusBar backgroundColor="blue" barStyle='dark-content'  />
           <AppNavigator />
         </View>
+       { !this.state.isOpen ?
         <TouchableOpacity
           onPress={this.toggle}
           style={styles.button}
@@ -66,7 +68,16 @@ export default class App extends React.Component {
             source={image}
             style={{ width: 32, height: 32 }}
           />
+        </TouchableOpacity>:<TouchableOpacity
+          onPress={this.toggle}
+          style={styles.button}
+        >
+          <Image
+            source={closeImage}
+            style={{ width: 32, height: 32 }}
+          />
         </TouchableOpacity>
+       }
         </SideMenu>
       </Provider>
     )

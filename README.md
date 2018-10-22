@@ -4,6 +4,8 @@
 ## Redux and react-navigation configurations are wired up, so the developer can simply install it globally or download the templates folder from github repo to local project directory.
 
 ## (also supporting RN 0.57+)
+## Demo
+<img src="./templates/react-native-template/assets/demo.gif" width="360">
 
 ## Requirements
 - [Node](https://nodejs.org) `6.x` or newer
@@ -14,9 +16,10 @@
 See [Getting Started](https://facebook.github.io/react-native/docs/getting-started.html) to install requirement tools.
 
 ## Stack / Libraries
-- [React Native](https://facebook.github.io/react-native/) `0.54.2` for building native apps using react
-- [Redux](https://redux.js.org/) `5.0.7` a predictable state container for Javascript apps
-- [React Navigation](https://reactnavigation.org/) `1.5.8` a router based on new React Native Navigation API
+- [React Native](https://facebook.github.io/react-native/) `0.57.3` for building native apps using react
+- [Redux](https://redux.js.org/) `^4.0.0` a predictable state container for Javascript apps
+- [React-Redux](https://github.com/reduxjs/react-redux) `^5.0.7` Official React bindings for redux
+- [React Navigation](https://reactnavigation.org/) `^2.18.0` a router based on new React Native Navigation API
 - [Babel](http://babeljs.io/) `6.x.x` for ES6+ support
 
 
@@ -33,7 +36,7 @@ For installing CLI app through yarn
 ```sh
 $ yarn global add react-native-redux-sidemenu-navigator-cli
 ```
-    a) For Existing projects created using react-native-cli , run following commands
+a) For Existing projects created using react-native-cli , run following commands
 ```sh
 $ cd <your project root directory>
 $ react-native-redux

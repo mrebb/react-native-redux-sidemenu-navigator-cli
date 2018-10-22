@@ -9,8 +9,6 @@ import Container from './styles/Container';
 import Dimensions from 'Dimensions';
 import { connect } from 'react-redux';
 import Icon from 'react-native-vector-icons/FontAwesome';
-import Wallpaper from './styles/Wallpaper.js'
-import Logo from './styles/Logo';
 import Label from './styles/Label'
 import Button from './styles/Button'
 import spinner from '../assets/loading.gif';
@@ -245,7 +243,7 @@ alignRight: {
   alignSelf: 'flex-end'
 },
 scroll: {
-  backgroundColor: '#E1D7D8',
+  backgroundColor: '#c2a4e8',
   padding: 30,
   flexDirection: 'column'
 },
