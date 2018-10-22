@@ -1,10 +1,14 @@
 {
   "name": "react-native-redux-sidemenu-navigator-cli",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "React Native boiler plate code to handle navigation, authentication and redux all together wired up integrated with pull out side-menu",
   "main": "index.js",
   "scripts": {
     "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mrebb/react-native-redux-sidemenu-navigator-cli.git"
   },
   "author": "Madhu Rebbana",
   "license": "MIT",

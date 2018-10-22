@@ -5,7 +5,7 @@
 
 ## (also supporting RN 0.57+)
 ## Demo
-<img src="./templates/react-native-template/assets/demo.gif" width="360">
+<img src="https://github.com/mrebb/react-native-redux-sidemenu-navigator-cli/blob/master/templates/react-native-template/assets/demo.gif" width="360">
 
 ## Requirements
 - [Node](https://nodejs.org) `6.x` or newer
